@@ -4,8 +4,6 @@
     {
         private static double maxWasser;
         private static double maxBohnen;
-        private double bohnen;
-        private double wasser;
         private double gesamtMengeKaffeProduziert;
         public double Wasser { get; private set; }
         public double Bohnen { get; private set; }
@@ -13,8 +11,8 @@
 
         public Kaffeemaschine()
         {
-            bohnen = 0;
-            wasser = 0;
+            Bohnen = 0;
+            Wasser = 0;
             gesamtMengeKaffeProduziert = 0;
             maxBohnen = 100;
             maxWasser = 100;
@@ -30,7 +28,7 @@
             else
             {
                 Wasser = maxWasser;
-                return maxWasser - wasser;
+                return maxWasser - Wasser;
             }
         }
 
@@ -44,7 +42,7 @@
             else
             {
                 Bohnen = maxBohnen;
-                return maxBohnen - bohnen;
+                return maxBohnen - Bohnen;
             }
         }
 
@@ -67,14 +65,14 @@
                 mengeBohnen = menge * 1 / 3;
                 mengeWasser = menge * 2 / 3;
             }
-            if (bohnen<mengeBohnen || wasser<mengeWasser)
+            if (Bohnen<mengeBohnen || Wasser<mengeWasser)
             {
                 return false;
             }
             else
             {
-                bohnen -= mengeBohnen;
-                wasser -= mengeWasser;
+                Bohnen -= mengeBohnen;
+                Wasser -= mengeWasser;
                 gesamtMengeKaffeProduziert += menge;
                 return true;
             }

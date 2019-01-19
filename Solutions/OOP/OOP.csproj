@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baummarder.cs" />
     <Compile Include="Complex.cs" />
+    <Compile Include="Eichhoernchen.cs" />
     <Compile Include="KaffeeGeschaeft.cs" />
     <Compile Include="Kaffeemaschine.cs" />
     <Compile Include="Mitarbeiter.cs" />
@@ -51,6 +53,8 @@
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Techniker.cs" />
+    <Compile Include="Tier.cs" />
+    <Compile Include="Uhu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
