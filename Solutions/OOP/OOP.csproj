@@ -46,8 +46,11 @@
     <Compile Include="Complex.cs" />
     <Compile Include="KaffeeGeschaeft.cs" />
     <Compile Include="Kaffeemaschine.cs" />
+    <Compile Include="Mitarbeiter.cs" />
     <Compile Include="OOP.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Techniker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

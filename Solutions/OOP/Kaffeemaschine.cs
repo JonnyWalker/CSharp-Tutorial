@@ -11,7 +11,7 @@
         public double Bohnen { get; private set; }
         public double GesamtMengeKaffeProduziert { get; private set; }
 
-        Kaffeemaschine()
+        public Kaffeemaschine()
         {
             bohnen = 0;
             wasser = 0;
