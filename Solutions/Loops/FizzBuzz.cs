@@ -4,29 +4,30 @@ namespace Loops
 {
     class FizzBuzz
     {
-        static void Main(string[] args)
+        public static string[] Compute(uint n)
         {
-            uint n = 15;
-
+            string[] result = new string[n];
             for (uint i = 1; i <= n; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
-                    Console.WriteLine("FizzBuzz");
+                    result[i-1] = "FizzBuzz";
                 }
                 else if (i % 3 == 0)
                 {
-                    Console.WriteLine("Fizz");
+                    result[i-1] = "Fizz";
                 }
                 else if (i % 5 == 0)
                 {
-                    Console.WriteLine("Buzz");
+                    result[i-1] = "Buzz";
                 }
                 else
                 {
-                    Console.WriteLine(i);
+                    result[i-1] = i.ToString();
+                    result[i-1] = i.ToString();
                 }
             }
+            return result;
         }
     }
 }
