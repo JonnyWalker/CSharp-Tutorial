@@ -4,10 +4,8 @@
     {
         public int personalNummer;
 
-        public Mitarbeiter(string name, int alter, int personalNummer)
+        public Mitarbeiter(string name, int alter, int personalNummer) : base(name, alter)
         {
-            Name = name;
-            Alter = alter;
             this.personalNummer = personalNummer;
         }
     }
