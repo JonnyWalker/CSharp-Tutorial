@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Loops
+﻿namespace Loops
 {
     class FizzBuzz
     {
@@ -23,7 +21,6 @@ namespace Loops
                 }
                 else
                 {
-                    result[i-1] = i.ToString();
                     result[i-1] = i.ToString();
                 }
             }
