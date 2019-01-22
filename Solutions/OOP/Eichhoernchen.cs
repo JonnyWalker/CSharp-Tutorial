@@ -6,7 +6,7 @@
         {
         }
 
-        protected override bool canEat(ref Tier tier)
+        protected override bool CanEat(ref Tier tier)
         {
             return false;
         }

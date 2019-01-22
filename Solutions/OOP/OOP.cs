@@ -6,10 +6,10 @@ namespace OOP
     {
         static void Main(string[] args)
         {
-            TestComplex();
-            TestPerson();
-            TestKaffee();
-            TestTiere();
+            //TestComplex();
+            //TestPerson();
+            //TestKaffee();
+            //TestTiere();
         }
 
         static void TestComplex()
@@ -53,8 +53,9 @@ namespace OOP
             tiere[2] = new Uhu(150);
             tiere[3] = new Eichhoernchen(40);
             tiere[4] = new Uhu(140);
-            foreach (Tier t in tiere)
+            for (int i = 0; i < tiere.Length; i++)
             {
+                Tier t = tiere[i];
                 Console.WriteLine(t.AktuellesGewicht);
                 Console.WriteLine(t.IsAlive);
             }
