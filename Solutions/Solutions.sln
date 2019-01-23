@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCollections", "MyCollections\MyCollections.csproj", "{B6439EF6-7872-4EAE-BAF4-34A1B52921F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExceptionStuff", "MyExceptionStuff\MyExceptionStuff.csproj", "{1694AF57-B95B-43D8-A211-294F323CA71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{606915C1-2BD5-4B5E-A9C7-2EBD258079D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{B6439EF6-7872-4EAE-BAF4-34A1B52921F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6439EF6-7872-4EAE-BAF4-34A1B52921F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6439EF6-7872-4EAE-BAF4-34A1B52921F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1694AF57-B95B-43D8-A211-294F323CA71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1694AF57-B95B-43D8-A211-294F323CA71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1694AF57-B95B-43D8-A211-294F323CA71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1694AF57-B95B-43D8-A211-294F323CA71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606915C1-2BD5-4B5E-A9C7-2EBD258079D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606915C1-2BD5-4B5E-A9C7-2EBD258079D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606915C1-2BD5-4B5E-A9C7-2EBD258079D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606915C1-2BD5-4B5E-A9C7-2EBD258079D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
