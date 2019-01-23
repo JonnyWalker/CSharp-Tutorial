@@ -1,4 +1,6 @@
-﻿namespace OOP
+﻿using System;
+
+namespace OOP
 {
     class Kaffeemaschine
     {
@@ -8,6 +10,7 @@
         public double Wasser { get; private set; }
         public double Bohnen { get; private set; }
         public double GesamtMengeKaffeProduziert { get; private set; }
+        public event EventHandler KaffeIstZubereitet;
 
         public Kaffeemaschine()
         {
@@ -74,6 +77,7 @@
                 Bohnen -= mengeBohnen;
                 Wasser -= mengeWasser;
                 gesamtMengeKaffeProduziert += menge;
+                KaffeIstZubereitet(this, null);
                 return true;
             }
         }

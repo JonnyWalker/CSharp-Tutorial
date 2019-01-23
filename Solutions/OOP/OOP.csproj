@@ -49,6 +49,7 @@
     <Compile Include="Eichhoernchen.cs" />
     <Compile Include="KaffeeGeschaeft.cs" />
     <Compile Include="Kaffeemaschine.cs" />
+    <Compile Include="Kaffeetrinker.cs" />
     <Compile Include="Mitarbeiter.cs" />
     <Compile Include="OOP.cs" />
     <Compile Include="Person.cs" />

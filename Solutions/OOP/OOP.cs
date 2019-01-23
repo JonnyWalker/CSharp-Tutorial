@@ -8,7 +8,7 @@ namespace OOP
         {
             //TestComplex();
             //TestPerson();
-            //TestKaffee();
+            TestKaffee();
             //TestTiere();
         }
 
@@ -43,6 +43,10 @@ namespace OOP
             k2.WasserAuffuellen(10);
             Console.WriteLine(k0 == k1);
             Console.WriteLine(k0 == k2);
+
+            var trinker = new Kaffeetrinker();
+            trinker.Register(k0);
+            k0.MacheKaffee(1,1);
         }
 
         static void TestTiere()
