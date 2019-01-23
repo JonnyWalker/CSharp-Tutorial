@@ -11,7 +11,7 @@ namespace OOP
 
         public void MyHandler(object sender, EventArgs e)
         {
-            Console.WriteLine("Yam");
+            Console.WriteLine("Yam!");
         }
     }
 }

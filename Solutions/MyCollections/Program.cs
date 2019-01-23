@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MyCollections
@@ -63,6 +64,11 @@ namespace MyCollections
             return sum;
         }
 
+        static int ArraySumTwist2(int[] array)
+        {
+            return array.Select(i => i > 10 ? i : 0).Sum();
+        }
+
         static int ListCount(string[] array)
         {
             int sum = 0;
@@ -71,6 +77,11 @@ namespace MyCollections
                 sum += s.StartsWith("D") ? 1 : 0;
             }
             return sum;
+        }
+
+        static int ListCount2(string[] array)
+        {
+            return array.Select(s => s.StartsWith("D") ? 1 : 0).Count();
         }
 
         static void SetInsert(HashSet<int> mySet, int maxVal)
